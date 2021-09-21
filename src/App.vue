@@ -1,21 +1,19 @@
 <template>
-  <div class="container">
-    Hello World!
-  </div>
+  <div class="container">Hello World!</div>
 </template>
 
 <script>
 export default {
   setup() {
     const testFunction = () => {
-      console.log('Hello World!')
-    }
+      console.log('Hello World!');
+    };
 
     return {
-      testFunction
-    }
-  }
-}
+      testFunction,
+    };
+  },
+};
 </script>
 
 <style lang="scss">
