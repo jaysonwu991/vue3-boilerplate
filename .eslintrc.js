@@ -15,7 +15,7 @@ module.exports = {
     sourceType: 'module',
   },
   plugins: ['babel', 'import', 'prettier'],
-  extends: ['eslint:recommended', 'plugin:vue/recommended', 'prettier/prettier'],
+  extends: ['eslint:recommended', 'plugin:vue/vue3-strongly-recommended', 'prettier/prettier'],
   rules: {
     'prettier/prettier': 0,
     semi: [2, 'always'],
