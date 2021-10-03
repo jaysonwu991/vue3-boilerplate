@@ -1,5 +1,4 @@
 const path = require('path');
-const webpack = require('webpack');
 const ESLintPlugin = require('eslint-webpack-plugin');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const { VueLoaderPlugin } = require('vue-loader/dist/index');
@@ -112,7 +111,6 @@ module.exports = {
     ],
   },
   plugins: [
-    new webpack.HotModuleReplacementPlugin(),
     new ESLintPlugin({
       formatter: require('eslint-friendly-formatter'),
     }),

@@ -1,5 +1,7 @@
 <template>
-  <div class="container">Hello World!</div>
+  <div class="container">
+    Hello World!
+  </div>
 </template>
 
 <script>

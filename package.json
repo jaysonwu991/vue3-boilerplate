@@ -1,7 +1,7 @@
 {
   "name": "vue3-boilerplate",
   "version": "1.0.0",
-  "description": "",
+  "description": "A Vue 3.x Boilerpate Project",
   "main": "src/main.js",
   "scripts": {
     "prepare": "husky install",
@@ -11,12 +11,21 @@
     "build": "webpack --config config/webpack.prod.js",
     "start": "cross-env NODE_ENV=development webpack serve --config config/webpack.dev.js"
   },
-  "keywords": [],
+  "keywords": [
+    "vue",
+    "sass",
+    "eslint",
+    "webpack",
+    "postcss",
+    "vue 3.x",
+    "vue-router",
+    "vue3-boilerplate"
+  ],
   "author": "Jayson Wu <jaysonwu991@outlook.com>",
   "license": "ISC",
   "dependencies": {
-    "core-js": "^3.18.0",
-    "vue": "^3.2.12",
+    "core-js": "^3.18.1",
+    "vue": "^3.2.19",
     "vue-router": "^4.0.11"
   },
   "devDependencies": {
@@ -24,9 +33,9 @@
     "@babel/eslint-parser": "^7.15.7",
     "@babel/eslint-plugin": "^7.14.5",
     "@babel/preset-env": "^7.15.6",
-    "@swc/core": "^1.2.88",
-    "@vue/compiler-sfc": "^3.2.12",
-    "autoprefixer": "^10.3.4",
+    "@swc/core": "^1.2.92",
+    "@vue/compiler-sfc": "^3.2.19",
+    "autoprefixer": "^10.3.6",
     "clean-webpack-plugin": "^4.0.0",
     "compression-webpack-plugin": "^9.0.0",
     "cross-env": "^7.0.3",
@@ -44,18 +53,18 @@
     "html-webpack-plugin": "^5.3.2",
     "husky": "^7.0.2",
     "mini-css-extract-plugin": "^2.3.0",
-    "postcss": "^8.3.6",
+    "postcss": "^8.3.8",
     "postcss-loader": "^6.1.1",
     "prettier": "^2.4.1",
-    "sass": "^1.42.0",
+    "sass": "^1.42.1",
     "sass-loader": "^12.1.0",
-    "style-loader": "^3.2.1",
+    "style-loader": "^3.3.0",
     "swc-loader": "^0.1.15",
     "terser-webpack-plugin": "^5.2.4",
-    "vue-loader": "^16.6.0",
-    "webpack": "^5.53.0",
+    "vue-loader": "^16.8.1",
+    "webpack": "^5.56.0",
     "webpack-cli": "^4.8.0",
-    "webpack-dev-server": "^4.2.1"
+    "webpack-dev-server": "^4.3.0"
   },
   "browserslist": [
     "> 1%",

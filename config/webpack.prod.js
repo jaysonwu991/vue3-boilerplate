@@ -1,6 +1,5 @@
 const path = require('path');
 const HtmlPlugin = require('html-webpack-plugin');
-const ESLintPlugin = require('eslint-webpack-plugin');
 const TerserPlugin = require('terser-webpack-plugin');
 const { VueLoaderPlugin } = require('vue-loader/dist/index');
 const { CleanWebpackPlugin } = require('clean-webpack-plugin');
@@ -128,13 +127,10 @@ const config = {
   plugins: [
     new CleanWebpackPlugin(),
     new VueLoaderPlugin(),
-    new ESLintPlugin({
-      formatter: require('eslint-friendly-formatter'),
-    }),
     new HtmlPlugin({
       inject: true,
-      template: path.resolve(__dirname, '../public/index.html'),
       showErrors: true,
+      template: path.resolve(__dirname, '../public/index.html'),
     }),
     new MiniCSSExtractPlugin({
       filename: 'styles/[name].[contenthash:8].css',
