@@ -1,15 +1,6 @@
 ## Vue 3.x Boilerplate
 
-- Webpack 5.x
-- Dart Sass
-- Esbuild-loader
-- SWC-loader
-- Eslint
-- Prettier
-- PostCSS
-- Husky
-- CSS Minimizer
-- Mini CSS Extract
+> It is a project that was built from Vue 3.x, and it has everything for you to develop forward, and it is used the latest version of webpack 5, so you won't miss the latest technology.
 
 ## Install Dependencies
 
