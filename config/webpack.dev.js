@@ -1,7 +1,7 @@
 const path = require('path');
+const { VueLoaderPlugin } = require('vue-loader');
 const ESLintPlugin = require('eslint-webpack-plugin');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
-const { VueLoaderPlugin } = require('vue-loader/dist/index');
 
 module.exports = {
   mode: 'development',
