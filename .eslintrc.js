@@ -47,6 +47,5 @@ module.exports = {
         ignoreRestSiblings: true,
       },
     ],
-    'vue/singleline-html-element-content-newline': 0,
   },
 };
